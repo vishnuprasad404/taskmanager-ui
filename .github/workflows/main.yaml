@@ -1,4 +1,4 @@
-name: Angular Build and Deploy
+name: taskmanager-ui Build and Deploy
 
 on:
   push:
@@ -17,12 +17,12 @@ jobs:
         with:
           node-version: 20
 
-      - name: Build Angular app to prod
+      - name: Build taskmanager-ui to prod
         working-directory: taskmanager-ui
         run: npm install && npm run build:prod
 
-      - name: Deploy to GitHub Pages
-        uses: vishnuprasad404/Task-Manager-UI@v1
+      - name: Deploy taskmanager-ui to GitHub Pages
+        uses: vishnuprasad404/Task-Manager-UI@v4
         with:
           folder: taskmanager-ui/dist/browser
           branch: prod  
