@@ -3,7 +3,7 @@ name: taskmanager-ui Build and Deploy
 on:
   push:
     branches:
-      - main
+      - development
 
 jobs:
   build:
@@ -24,6 +24,6 @@ jobs:
       - name: Deploy taskmanager-ui to GitHub Pages
         uses: vishnuprasad404/Task-Manager-UI@v4
         with:
-          folder: taskmanager-ui/dist/browser
-          branch: prod  
+          folder: dist/browser
+          branch: development  
           token: ${{ secrets.SECRET_TOKEN }}
