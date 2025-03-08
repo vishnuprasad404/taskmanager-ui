@@ -22,7 +22,7 @@ jobs:
         run: npm install && npm run gh-build && cp dist/angular-crash/index.html dist/angular-crash/404.html
       
       - name: Deploy
-        uses: vishnuprasad404/taskmanager-ui@1.0.0
+        uses: vishnuprasad404/taskmanager-ui@1.1.0
         with:
           branch: release/qa
           folder: dist/angular-crash      
