@@ -1,28 +1,29 @@
-name: Github Pages Deploy
+name: Angular Build and Deploy
 
 on:
   push:
     branches:
-      - "development"
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [22.14]
-    
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      - name: Install and build
-        working-directory: ./taskmanager-ui
-        run: npm install && npm run gh-build && cp dist/angular-crash/index.html dist/angular-crash/404.html
-      
-      - name: Deploy
-        uses: vishnuprasad404/taskmanager-ui@1.1.0
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          branch: release/qa
-          folder: dist/angular-crash      
+          node-version: 22
+
+      - name: Build Angular app to prod
+        working-directory: taskmanager-ui
+        run: npm install && npm run build:prod
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist/browser
+          branch: release/qa  
+          token: ${{ secrets.SECRET_TOKEN }}
