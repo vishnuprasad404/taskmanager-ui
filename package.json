@@ -8,6 +8,7 @@
     "build:prod": "ng build --configuration=production --base-href=taskmanager-ui",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "test:ci": "ng test --no-watch --no-progress --browsers=ChromeHeadless",
     "serve":"ng serve"
   },
   "private": true,
