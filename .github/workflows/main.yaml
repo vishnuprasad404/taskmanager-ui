@@ -22,7 +22,7 @@ jobs:
         run: npm install && npm run build:prod
 
       - name: Deploy to GitHub Pages
-        uses: taskmanager-ui
+        uses: vishnuprasad404/Task-Manager-UI@v1
         with:
           folder: taskmanager-ui/dist/browser
           branch: prod  
