@@ -1,10 +1,10 @@
-import { SidebarComponent } from './sidebar.component';
+import { HeaderComponent } from './header.component';
 import { Spectator, createComponentFactory } from "@ngneat/spectator";
 
-describe("SidebarComponent", () => {
-  let spectator: Spectator<SidebarComponent>;
+describe("HeaderComponent", () => {
+  let spectator: Spectator<HeaderComponent>;
   const createComponent = createComponentFactory({
-    component: SidebarComponent
+    component: HeaderComponent
   });
 
   beforeEach(() => {

@@ -1,4 +1,7 @@
 :root {
+    --app-color: #0081fb;
+    --app-color-rgb: 0,129, 251;
+
     --font-family-light: "Roboto Light";
     --font-family-regular: "Roboto Regular";
     --font-family-medium: "Roboto Medium";
@@ -22,5 +25,8 @@
     --corner-radius-regular: 5px;
     --corner-radius-md: 10px;
 
+    --header-height: 60px;
+
+    --box-icon-sm-size: 30px;
 
 }

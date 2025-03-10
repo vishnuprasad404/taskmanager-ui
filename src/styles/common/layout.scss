@@ -1,83 +1,123 @@
 .J5tsrbMZMz {
     display: grid;
+    grid-template-rows: auto 1fr;
     grid-template-columns: auto 1fr;
     height: 100%;
+
+    .sX18p81ME8 {
+        width: 100%;
+        height: var(--header-height);
+        grid-column: 2/3;
+        border-bottom: 1px solid var(--border-color);
+    }
 
 
     .XG_fEMXcOs,
     .DvQYGpAsmN {
-        padding: var(--gutter-space-md);
+        padding: var(--gutter-space-regular);
     }
 
     .DvQYGpAsmN {
         border-right: 1px solid var(--border-color);
-        display: flex;
-        flex-direction: column;
+        grid-row: 1 / 3;
 
-        .oypNOddcVp {
-            list-style: none;
+        .DQA8EmwmE9 {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
 
-            .PkKJ30JSrx {
-                padding: var(--gutter-space-xs);
-                margin: var(--gutter-space-sm) 0;
-                padding-left: 0;
-                display: flex;
-                align-items: center;
-                gap: var(--gutter-space-sm);
-                cursor: pointer;
+            .oypNOddcVp {
+                list-style: none;
 
+                .PkKJ30JSrx {
+                    padding: var(--gutter-space-xs);
+                    margin: var(--gutter-space-sm) 0;
+                    padding-left: 0;
+                    display: flex;
+                    align-items: center;
+                    gap: var(--gutter-space-sm);
+                    cursor: pointer;
 
-                .k5WlqS6VvV {
-                    color: var(--primary-text-color);
-                    font-size: 12px;
-                }
+                    &:first-child {
+                        margin-top: var(--gutter-space-lg);
+                        padding-top: 0;
+                    }
 
-                &.VZYo2B0zmr {
-                    background: #ff4e000f;
-                    padding-left: var(--gutter-space-sm);
-                    border-radius: var(--corner-radius-regular);
 
                     .k5WlqS6VvV {
-                        color: var(--primary-body-color);
-                    }
-                }
-
-                &.TbDguWqjGb {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-
-                    .kngg9DD_Dq {
+                        color: var(--primary-text-color);
+                        font-size: 12px;
+                        width: var(--box-icon-sm-size);
+                        height: var(--box-icon-sm-size);
+                        background: var(--primary-body-color);
+                        border-radius: var(--corner-radius-regular);
                         display: flex;
                         align-items: center;
-                        gap: var(--gutter-space-sm);
+                        justify-content: center;
+                        box-shadow: 0 0 10px 5px var(--shadow-color);
+                        color: var(--app-color);
+
                     }
 
-                    .xe6uggMVZG {
-                        list-style: none;
-                        border-left: 1px dashed rgba(0, 0, 0, 0.468);
-                        margin-left: calc(var(--gutter-space-md) + 5px);
-                        padding-left: var(--gutter-space-md);
-                        margin-top: var(--gutter-space-md);
+                    &.k11tIyQdzl {
+                        border-radius: var(--corner-radius-regular);
+                        color: var(--app-color);
 
-                        .b3foHQkLZd {
-                            &:not(:last-child) {
-                                padding-bottom: var(--gutter-space-md);
+                        .k5WlqS6VvV {
+                            background-color: var(--app-color);
+                            color: var(--white);
+                        }
+                    }
 
+                    &.TbDguWqjGb {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+
+                        .kngg9DD_Dq {
+                            display: flex;
+                            align-items: center;
+                            gap: var(--gutter-space-sm);
+                        }
+
+                        .xe6uggMVZG {                            
+                            padding-left: calc(var(--box-icon-sm-size) + var(--gutter-space-sm));
+                            margin-top: var(--gutter-space-sm);
+                            width: 100%;
+
+                            .b3foHQkLZd {
+                                color: var(--secondary-text-color);
+                                font-size: var(--font-size-xxs);
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+
+                                &:not(:last-child) {
+                                    padding-bottom: var(--gutter-space-md);
+
+                                }
+                                .WoS4ld1BDa{
+                                    color: var(--app-color);
+                                }
+                                &.prwlb7BpNA{
+                                    color: var(--app-color);
+                                }
                             }
                         }
                     }
+
+
                 }
 
-
-            }
-
-            .WrcpE2RI1e {
-                margin-top: var(--gutter-space-md);
-                font-size: var(--font-size-xxs);
-                color: var(--teritory-text-color);
+                .WrcpE2RI1e {
+                    margin-top: var(--gutter-space-md);
+                    font-size: var(--font-size-xxs);
+                    color: var(--teritory-text-color);
+                }
             }
         }
+
+
     }
 
 }
@@ -89,6 +129,7 @@
     border-radius: var(--corner-radius-regular);
     display: flex;
     flex-direction: column;
+    box-shadow: 0 0 10px 5px var(--shadow-color);
 
     .zSqChlyIgZ {
         margin-top: var(--gutter-space-lg);
@@ -100,13 +141,15 @@
     background-color: var(--primary-bg-color);
     display: flex;
     align-items: center;
-    padding: var(--gutter-space-regular);
+    padding: 0 var(--gutter-space-sm);
+    height: var(--header-height);
     gap: var(--gutter-space-regular);
+    box-shadow: 0 0 10px 5px var(--shadow-color);
     border-radius: var(--corner-radius-regular);
 
     .E9XF8SMZDb {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         border-radius: 100%;
         object-fit: cover;
     }

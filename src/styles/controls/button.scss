@@ -1,7 +1,33 @@
 button {
     background: none;
     border: none;
-    background-color: rgba(255, 78, 0, 0.0588235294);
-    padding: var(--gutter-space-regular);
+    background-color: var(--app-color);
+    padding: var(--gutter-space-xs);
     border-radius: var(--corner-radius-regular);
+    color: var(--white);
+    cursor: pointer;
+
+    .gtsT8n4Ljx {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: var(--corner-radius-regular);
+        background-color: var(--white);
+        color: var(--app-color);
+    }
+
+    .WZvmntfoAK {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: .3px;
+    }
+
+    &.zSqChlyIgZ {
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+
 }

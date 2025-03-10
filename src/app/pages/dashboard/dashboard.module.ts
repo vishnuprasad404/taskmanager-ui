@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard.component';
 import { DashboardRoutingModule } from './dashborad.route';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -13,6 +14,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
   ],
   imports: [
     CommonModule,
+    RouterModule,
     DashboardRoutingModule
   ]
 })
