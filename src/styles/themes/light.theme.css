@@ -12,6 +12,9 @@
 
     --shadow-color: #0000000d;
 
+    --canvar-color: var(--primary-bg-color);
+
+
     --white: #fff;
     --black: #000;
 }
