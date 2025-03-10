@@ -4,19 +4,19 @@
     align-items: center;
     .DSnkvEAV_w {
         padding: var(--gutter-space-sm) var(--gutter-space-regular);
-        border-right: 1px solid var(--border-color);
+        border-right: 0.0625rem solid var(--border-color);
         position: absolute;
         left: 0;
     }
 
     input.AM6yTpAP6v {
-        border: 1px solid var(--border-color);
+        border: 0.0625rem solid var(--border-color);
         border-radius: var(--corner-radius-regular);
         padding: var(--gutter-space-sm);
         padding-left:  calc(var(--gutter-space-regular) * 4 );
         outline: none;
         font-size: var(--font-size-xxs);
-        height: 35px;
+        height: 2.1875rem;
 
         &:focus,
         &:active,
@@ -38,7 +38,7 @@
     border-radius: var(--corner-radius-regular);
     color: var(--white);
     font-size: var(--font-size-xxs);
-    height: 35px;
-    letter-spacing: .3px;
+    height: 2.1875rem;
+    letter-spacing: .0.1875rem;
 
 }

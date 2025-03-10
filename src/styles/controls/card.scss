@@ -1,16 +1,16 @@
 .w5UA7TzAsN {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    grid-template-columns: repeat(auto-fit, minmax(15.625rem, 15.625rem));
     gap: var(--gutter-space-sm);
 
     .nNQMXHtPdH {
         border-radius: var(--corner-radius-regular);
-        border: 1px solid var(--border-color);
+        border: 0.0625rem solid var(--border-color);
         display: grid;
         grid-template-rows: 1fr auto;
         position: relative;
-        box-shadow: 0 0 5px 1px var(--shadow-color);
+        box-shadow: 0 0 0.3125rem 0.0625rem var(--shadow-color);
 
 
         .IR5CI_OupX {
@@ -24,10 +24,10 @@
             }
 
             .Tr_Ei5PY3M {
-                height: 80px;
+                height: 5rem;
                 .lvTo76iKpS {
                     width: 100%;
-                    height: 80px;
+                    height: 5rem;
                     border-radius: var(--corner-radius-regular);
                     object-fit: cover;
                     object-position: top;
@@ -46,7 +46,7 @@
                         border-radius: var(--corner-radius-regular);
                         padding: var(--gutter-space-sm);
                         color: var(--primary-text-color);
-                        backdrop-filter: blur(10px);
+                        backdrop-filter: blur(0.625rem);
                         opacity: 0;
                         transition: opacity .4s;
 
@@ -64,7 +64,7 @@
                 margin-top: var(--gutter-space-sm);
                 font-size: var(--font-size-xxs);
                 color: var(--secondary-text-color);
-                line-height: 18px;
+                line-height: 1.125rem;
                 overflow: hidden;
                 text-overflow: ellipsis;
                 display: -webkit-box;
@@ -109,15 +109,15 @@
                 align-items: center;
 
                 .eDdqnSdEjo {
-                    width: 30px;
-                    height: 30px;
+                    width: 1.875rem;
+                    height: 1.875rem;
                     border-radius: 100%;
                     object-fit: cover;
                     background: var(--primary-bg-color);
-                    padding: 2px;
+                    padding: 0.125rem;
 
                     &:not(:first-child) {
-                        margin-left: -5px;
+                        margin-left: -0.3125rem;
                     }
                 }
             }
@@ -125,21 +125,21 @@
 
         .caUKZKcRrW {
             padding: var(--gutter-space-regular) var(--gutter-space-sm);
-            border-top: 1px solid var(--border-color);
+            border-top: 0.0625rem solid var(--border-color);
             display: flex;
             align-items: center;
             justify-content: space-between;
 
             .yppetmF8Pv {
                 .L7rTQbzC04 {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                     color: var(--secondary-text-color);
                     cursor: pointer;
 
                     &:not(:first-child) {
                         margin-left: var(--gutter-space-sm);
                         padding-left: var(--gutter-space-sm);
-                        border-left: 1px solid var(--border-color);
+                        border-left: 0.0625rem solid var(--border-color);
                     }
                 }
             }
@@ -160,18 +160,18 @@
 
         &::after{
             content: "";
-            height: 10px;
+            height: 0.625rem;
             position: absolute;
-            bottom: -8px;
+            bottom: -0.5rem;
             left: 0;
             right: 0;
             z-index: -1;
-            border: 1px solid var(--border-color);
+            border: 0.0625rem solid var(--border-color);
             margin: 0 var(--gutter-space-sm);
             border-top: 0;
             border-radius: var(--corner-radius-regular);
             background: var(--primary-bg-color);
-            box-shadow: 0 2px 5px 0px var(--shadow-color);
+            box-shadow: 0 0.125rem 0.3125rem 0rem var(--shadow-color);
         }
     }
 

@@ -8,26 +8,29 @@
         width: 100%;
         height: var(--header-height);
         grid-column: 2/3;
-        border-bottom: 1px solid var(--border-color);
+        border-bottom: 0.0625rem solid var(--border-color);
     }
 
 
     .XG_fEMXcOs,
     .DvQYGpAsmN {
         padding: var(--gutter-space-regular);
+        overflow: auto;
     }
 
     .DvQYGpAsmN {
-        border-right: 1px solid var(--border-color);
+        border-right: 0.0625rem solid var(--border-color);
         grid-row: 1 / 3;
 
         .DQA8EmwmE9 {
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
             height: 100%;
+            row-gap: var(--gutter-space-sm);
 
             .oypNOddcVp {
                 list-style: none;
+                overflow-y: auto;
 
                 .PkKJ30JSrx {
                     padding: var(--gutter-space-xs);
@@ -46,7 +49,7 @@
 
                     .k5WlqS6VvV {
                         color: var(--primary-text-color);
-                        font-size: 12px;
+                        font-size: 0.75rem;
                         width: var(--box-icon-sm-size);
                         height: var(--box-icon-sm-size);
                         background: var(--primary-body-color);
@@ -54,7 +57,7 @@
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        box-shadow: 0 0 10px 5px var(--shadow-color);
+                        box-shadow: 0 0 0.625rem 0.3125rem var(--shadow-color);
                         color: var(--app-color);
 
                     }
@@ -80,7 +83,7 @@
                             gap: var(--gutter-space-sm);
                         }
 
-                        .xe6uggMVZG {                            
+                        .xe6uggMVZG {
                             padding-left: calc(var(--box-icon-sm-size) + var(--gutter-space-sm));
                             margin-top: var(--gutter-space-sm);
                             width: 100%;
@@ -96,10 +99,12 @@
                                     padding-bottom: var(--gutter-space-md);
 
                                 }
-                                .WoS4ld1BDa{
+
+                                .WoS4ld1BDa {
                                     color: var(--app-color);
                                 }
-                                &.prwlb7BpNA{
+
+                                &.prwlb7BpNA {
                                     color: var(--app-color);
                                 }
                             }
@@ -125,11 +130,11 @@
 .WxhI5AUceG {
     background-color: var(--canvar-color);
     margin-top: auto;
-    padding: var(--gutter-space-md);
+    padding: var(--gutter-space-sm);
     border-radius: var(--corner-radius-regular);
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 10px 5px var(--shadow-color);
+    box-shadow: 0 0 0.625rem 0.3125rem var(--shadow-color);
 
     .zSqChlyIgZ {
         margin-top: var(--gutter-space-lg);
@@ -143,12 +148,12 @@
     padding: 0 var(--gutter-space-sm);
     height: var(--header-height);
     gap: var(--gutter-space-regular);
-    box-shadow: 0 0 10px 5px var(--shadow-color);
+    box-shadow: 0 0 0.625rem 0.3125rem var(--shadow-color);
     border-radius: var(--corner-radius-regular);
 
     .E9XF8SMZDb {
-        width: 35px;
-        height: 35px;
+        width: 2.1875rem;
+        height: 2.1875rem;
         border-radius: 100%;
         object-fit: cover;
     }
@@ -165,19 +170,20 @@
 }
 
 
-.jQDix4udvy{
+.jQDix4udvy {
     width: 100%;
     background-color: var(--canvar-color);
-    box-shadow: 0 0 12px 1px var(--shadow-color);
+    box-shadow: 0 0 0.75rem 0.0625rem var(--shadow-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: var(--gutter-space-regular);
-    .Xstp2VNcPD{
+
+    .Xstp2VNcPD {
         font-family: var(--font-family-semibold);
     }
 
-    .ixed4qh8WD{
+    .ixed4qh8WD {
         display: flex;
         align-items: center;
         gap: var(--gutter-space-sm);

@@ -11,6 +11,10 @@ body {
     height: 100%;
 }
 
+html{
+    font-size: clamp(0.75rem, 1vw, 1rem);
+}
+
 body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);

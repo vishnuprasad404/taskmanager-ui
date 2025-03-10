@@ -8,26 +8,25 @@
     --font-family-semibold: "Roboto Semibold";
     --font-family-bold: "Roboto Bold";
 
-    --font-size-xxxs: 12px;
-    --font-size-xxs: 14px;
-    --font-size-xs: 16px;
-    --font-size-sm: 18px;
-    --font-size-md: 22px;
-    --font-size-lg: 30px;
-    --font-size-xl: 45px;
-    --font-size-xxl: 60px;
+    --font-size-xxxs: 0.75rem;
+    --font-size-xxs: 0.875rem;
+    --font-size-xs: 1rem;
+    --font-size-sm: 1.125rem;
+    --font-size-md: 1.375rem;
+    --font-size-lg: 1.875rem;
+    --font-size-xl: 2.8125rem;
+    --font-size-xxl: 3.75rem;
 
-    --gutter-space-xs: 5px;
-    --gutter-space-sm: 10px;
-    --gutter-space-regular: 15px;
-    --gutter-space-md: 20px;
-    --gutter-space-lg: 30px;
+    --gutter-space-xs: 0.3125rem;
+    --gutter-space-sm: 0.625rem;
+    --gutter-space-regular: 0.9375rem;
+    --gutter-space-md: 1.25rem;
+    --gutter-space-lg: 1.875rem;
 
-    --corner-radius-regular: 5px;
-    --corner-radius-md: 10px;
-
-    --header-height: 60px;
-
-    --box-icon-sm-size: 30px;
+    --border-size: 0.0625rem;
+    --corner-radius-regular: 0.3125rem;
+    --corner-radius-md: 0.625rem;
+    --header-height: 3.75rem;
+    --box-icon-sm-size: 1.875rem;
 
 }
