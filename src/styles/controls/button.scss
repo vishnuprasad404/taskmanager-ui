@@ -1,10 +1,10 @@
 button {
     background: none;
     border: none;
-    background-color: var(--app-color);
+    background-color: rgba(var(--app-color-rgb), 0.1);
     padding: var(--gutter-space-xs);
     border-radius: var(--corner-radius-regular);
-    color: var(--white);
+    color: var(--app-color);
     cursor: pointer;
 
     .gtsT8n4Ljx {
@@ -14,8 +14,8 @@ button {
         align-items: center;
         justify-content: center;
         border-radius: var(--corner-radius-regular);
-        background-color: var(--white);
-        color: var(--app-color);
+        background-color: rgba(0, 129, 251);
+        color: var(--white);
     }
 
     .WZvmntfoAK {

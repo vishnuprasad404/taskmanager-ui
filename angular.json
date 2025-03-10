@@ -42,7 +42,17 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              {
+                "bundleName": "dark-theme",
+                "input": "src/styles/themes/dark-theme.css",
+                "inject": false
+              },
+              {
+                "bundleName": "light-theme",
+                "input": "src/styles/themes/light-theme.css",
+                "inject": false
+              }
             ],
             "scripts": []
           },

@@ -1,0 +1,22 @@
+.qkWIffa4Hv {
+    display: flex;
+    align-items: center;
+    gap: var(--gutter-space-regular);
+
+    .YWbWu_c4db {
+        color: var(--secondary-text-color);
+        font-size: var(--font-size-xxs);
+
+        &:not(:first-child) {
+            &::before {
+                content: '\21D2';
+                color: var(--secondary-text-color);
+                padding-right: var(--gutter-space-regular);
+            }
+        }
+
+        &:last-child {
+            color: var(--primary-text-color);
+        }
+    }
+}

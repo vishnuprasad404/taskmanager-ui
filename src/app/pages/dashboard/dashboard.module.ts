@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard.component';
 import { DashboardRoutingModule } from './dashborad.route';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { RouterModule } from '@angular/router';
+import { HeaderComponent } from "./components/header/header.component";
 
 
 
@@ -15,7 +16,8 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     RouterModule,
-    DashboardRoutingModule
-  ]
+    DashboardRoutingModule,
+    HeaderComponent
+]
 })
 export class DashboardModule { }
